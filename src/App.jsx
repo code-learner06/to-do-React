@@ -57,7 +57,7 @@ const App = () => {
 						maxLength={40}
 						value={newTodo}
 						onChange={changeValue}
-						onKeyDown={(keydown) => {
+						onKeyDown={(keydown) =>{
 							if (keydown.key === "Enter") addTaskHandler();
 						}}
 					/>
