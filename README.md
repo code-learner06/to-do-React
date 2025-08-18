@@ -10,7 +10,7 @@ A simple and responsive to-do list application built with React. Users can add, 
 - **Responsive Design**: Styled with CSS Modules and Tailwind-like classes for a modern UI.
 
 ## Technologies Used
-- **React**: JavaScript library for building the user interface.
+- **React**: JavaScript library for building the user interface .
 - **CSS Modules**: Scoped styling for the app.
 - **uuid**: Generates unique IDs for tasks.
  
