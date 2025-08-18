@@ -54,6 +54,7 @@ const App = () => {
 						className="bg-zinc-500/40 pl-5 text-xl font-semibold placeholder:text-zinc-600  focus:bg-white  rounded  border-zinc-400 hover:bg-zinc-400  border placeholder:[text-lg] outline-0 caret-red-500 focus:border-pink-400 mr-3 mb-2 h-9"
 						type="text"
 						placeholder="Enter task"
+						maxLength={40}
 						value={newTodo}
 						onChange={changeValue}
 						onKeyDown={(keydown) => {
